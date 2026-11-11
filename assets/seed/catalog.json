@@ -1,0 +1,413 @@
+{
+  "member": {
+    "id": 1,
+    "name": "Hania",
+    "tier": "bronze",
+    "points": 0,
+    "pointsToNext": 1290,
+    "nextTier": "gold",
+    "tierProgress": 0,
+    "notificationCount": 2,
+    "rewardsBadge": 0,
+    "photoAsset": "assets/images/avatar_hania.png"
+  },
+  "banners": [
+    {
+      "id": "b_central",
+      "title": "We are now at Central Boulevard",
+      "badge": "New shop",
+      "imageAsset": "assets/images/banner_donuts.jpg",
+      "imageUrl": "",
+      "position": 0
+    },
+    {
+      "id": "b_holiday",
+      "title": "Hot the holiday boxes",
+      "badge": "50% off",
+      "imageAsset": "assets/images/banner_holiday.png",
+      "imageUrl": "https://images.unsplash.com/photo-1514517521153-1be72277b32f?auto=format&fit=crop&w=1200&q=60",
+      "position": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "p_coconut",
+      "code": "JD022123",
+      "name": "Coconut Donut",
+      "priceMmk": 3200,
+      "isNew": true,
+      "discountPercent": null,
+      "imageAsset": "assets/images/product_coconut_cutout.png",
+      "imageUrl": "",
+      "description": "Enjoy our scrumptious donuts – soft, sweet, and satisfying in every bite. Choose from classic glazed, rich chocolate, or fun sprinkles. Dive into deliciousness now!"
+    },
+    {
+      "id": "p_mistletoe",
+      "code": "JD022201",
+      "name": "Mistletoe Romance box",
+      "priceMmk": 8500,
+      "isNew": false,
+      "discountPercent": 50,
+      "imageAsset": "assets/images/product_mistletoe.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1514517521153-1be72277b32f?auto=format&fit=crop&w=800&q=60",
+      "description": "A seasonal box of glazed and filled donuts, finished for sharing."
+    },
+    {
+      "id": "p_christmas",
+      "code": "JD022214",
+      "name": "Christmas Mix Family box",
+      "priceMmk": 12000,
+      "isNew": false,
+      "discountPercent": null,
+      "imageAsset": "assets/images/product_christmas.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=60",
+      "description": "A family box of holiday donuts, cookies, and cocoa bites."
+    },
+    {
+      "id": "p_strawberry",
+      "code": "JD022088",
+      "name": "Strawberry Chocolate Donuts",
+      "priceMmk": 2800,
+      "isNew": false,
+      "discountPercent": null,
+      "imageAsset": "assets/images/product_strawberry_cutout.png",
+      "imageUrl": "",
+      "description": "Strawberry icing over a chocolate ring, finished with cream."
+    },
+    {
+      "id": "p_dalgona",
+      "code": "JD022301",
+      "name": "Dalgona Creamy Coffee",
+      "priceMmk": 2500,
+      "isNew": false,
+      "discountPercent": null,
+      "imageAsset": "assets/images/product_dalgona_cutout.png",
+      "imageUrl": "",
+      "description": "Whipped dalgona coffee, cold and creamy, beside the donut case."
+    },
+    {
+      "id": "p_santa",
+      "code": "JD022177",
+      "name": "Santa's favorite cookies set",
+      "priceMmk": 6400,
+      "isNew": false,
+      "discountPercent": 20,
+      "imageAsset": "assets/images/product_santa_cutout.png",
+      "imageUrl": "",
+      "description": "A cookie set with chocolate chunks and a cocoa dip."
+    },
+    {
+      "id": "p_matcha",
+      "code": "JD022044",
+      "name": "Matcha Donut",
+      "priceMmk": 3000,
+      "isNew": true,
+      "discountPercent": null,
+      "imageAsset": "assets/images/donut_matcha.png",
+      "imageUrl": "https://images.unsplash.com/photo-1506224772180-d75b3efbe9be?auto=format&fit=crop&w=800&q=60",
+      "description": "A bright matcha glaze with white chocolate drizzle."
+    },
+    {
+      "id": "p_blueberry",
+      "code": "JD022055",
+      "name": "Blueberry Donut",
+      "priceMmk": 3000,
+      "isNew": false,
+      "discountPercent": null,
+      "imageAsset": "assets/images/product_blueberry_cutout.png",
+      "imageUrl": "",
+      "description": "Blueberry icing and a soft vanilla crumb."
+    },
+    {
+      "id": "p_pink",
+      "code": "JD022010",
+      "name": "Pink Sprinkle Donut",
+      "priceMmk": 2700,
+      "isNew": false,
+      "discountPercent": 20,
+      "imageAsset": "assets/images/product_pink_cutout.png",
+      "imageUrl": "",
+      "description": "Strawberry glaze and a full coat of sprinkles."
+    }
+  ],
+  "sections": [
+    {
+      "id": "seasonal",
+      "title": "Seasonal specials",
+      "position": 0,
+      "productIds": ["p_mistletoe", "p_christmas", "p_matcha"]
+    },
+    {
+      "id": "popular",
+      "title": "Popular 🔥",
+      "position": 1,
+      "productIds": ["p_strawberry", "p_dalgona", "p_blueberry"]
+    },
+    {
+      "id": "order_again",
+      "title": "Order again",
+      "position": 2,
+      "productIds": ["p_santa", "p_coconut", "p_pink"]
+    }
+  ],
+  "shops": [
+    {
+      "id": "s_myaynigone",
+      "name": "Myaynigone J'Donut",
+      "address": "2972 Pyay Road, Sanchaung Township, Yangon.",
+      "distanceLabel": "1.2 km",
+      "imageAsset": "assets/images/shop_case.jpg",
+      "imageUrl": "",
+      "position": 0
+    },
+    {
+      "id": "s_sanchaung",
+      "name": "Sanchaung J'Donut",
+      "address": "Bagaya Road, Sanchaung, Yangon",
+      "distanceLabel": "2.4 km",
+      "imageAsset": "assets/images/shop_case.jpg",
+      "imageUrl": "",
+      "position": 1
+    },
+    {
+      "id": "s_yankin",
+      "name": "Yankin J'Donut",
+      "address": "Kaba Aye Pagoda Road, Yankin, Yangon",
+      "distanceLabel": "4.1 km",
+      "imageAsset": "assets/images/shop_case.jpg",
+      "imageUrl": "",
+      "position": 2
+    },
+    {
+      "id": "s_hladan",
+      "name": "Hledan J'Donut",
+      "address": "Insein Road, Kamayut, Yangon",
+      "distanceLabel": "3.3 km",
+      "imageAsset": "assets/images/shop_case.jpg",
+      "imageUrl": "",
+      "position": 3
+    }
+  ],
+  "challenges": [
+    {
+      "id": "c_coco_done",
+      "title": "Eat 4 Coco donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 0
+    },
+    {
+      "id": "c_coco_partial",
+      "title": "Eat 4 Coco donuts",
+      "progress": 1,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 1
+    },
+    {
+      "id": "c_coffee",
+      "title": "Drink 12 cups americano",
+      "progress": 9,
+      "goal": 12,
+      "rewardPoints": 100,
+      "art": "coffee",
+      "tabKind": "earn",
+      "position": 2
+    },
+    {
+      "id": "c_strawberry",
+      "title": "Eat 4 Strawberry donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 3
+    },
+    {
+      "id": "c_matcha",
+      "title": "Eat 4 Matcha donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 4
+    },
+    {
+      "id": "c_blueberry",
+      "title": "Eat 4 Blueberry donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 5
+    },
+    {
+      "id": "c_latte",
+      "title": "Drink 8 cups latte",
+      "progress": 8,
+      "goal": 8,
+      "rewardPoints": 100,
+      "art": "coffee",
+      "tabKind": "earn",
+      "position": 6
+    },
+    {
+      "id": "c_pink",
+      "title": "Eat 4 Pink sprinkle donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 7
+    },
+    {
+      "id": "c_mocha",
+      "title": "Drink 6 cups mocha",
+      "progress": 6,
+      "goal": 6,
+      "rewardPoints": 100,
+      "art": "coffee",
+      "tabKind": "earn",
+      "position": 8
+    },
+    {
+      "id": "c_dalgona",
+      "title": "Eat 4 Dalgona donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 9
+    },
+    {
+      "id": "c_cappuccino",
+      "title": "Drink 4 cups cappuccino",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "coffee",
+      "tabKind": "earn",
+      "position": 10
+    },
+    {
+      "id": "c_christmas",
+      "title": "Eat 4 Christmas donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 11
+    },
+    {
+      "id": "c_espresso",
+      "title": "Drink 12 cups espresso",
+      "progress": 12,
+      "goal": 12,
+      "rewardPoints": 100,
+      "art": "coffee",
+      "tabKind": "earn",
+      "position": 12
+    },
+    {
+      "id": "c_vanilla",
+      "title": "Eat 4 Vanilla donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 13
+    },
+    {
+      "id": "c_macchiato",
+      "title": "Drink 6 cups macchiato",
+      "progress": 6,
+      "goal": 6,
+      "rewardPoints": 100,
+      "art": "coffee",
+      "tabKind": "earn",
+      "position": 14
+    },
+    {
+      "id": "c_chocolate",
+      "title": "Eat 4 Chocolate donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 15
+    },
+    {
+      "id": "c_flatwhite",
+      "title": "Drink 8 cups flat white",
+      "progress": 8,
+      "goal": 8,
+      "rewardPoints": 100,
+      "art": "coffee",
+      "tabKind": "earn",
+      "position": 16
+    },
+    {
+      "id": "c_oreo",
+      "title": "Eat 4 Oreo donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 17
+    },
+    {
+      "id": "c_caramel",
+      "title": "Drink 4 cups caramel",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "coffee",
+      "tabKind": "earn",
+      "position": 18
+    },
+    {
+      "id": "c_glazed",
+      "title": "Eat 4 Glazed donuts",
+      "progress": 4,
+      "goal": 4,
+      "rewardPoints": 100,
+      "art": "donut",
+      "tabKind": "earn",
+      "position": 19
+    },
+    {
+      "id": "g_coconut",
+      "title": "Free coconut donut",
+      "progress": 1,
+      "goal": 1,
+      "rewardPoints": 0,
+      "art": "gift",
+      "tabKind": "gift",
+      "position": 0
+    },
+    {
+      "id": "g_box",
+      "title": "Birthday box",
+      "progress": 0,
+      "goal": 1,
+      "rewardPoints": 0,
+      "art": "gift",
+      "tabKind": "gift",
+      "position": 1
+    }
+  ]
+}
